@@ -1,0 +1,38 @@
+#container {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  background:yellow;
+}
+
+#sq {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(84, 207, 216);
+
+}
+
+#hello {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50;
+  left: 0;
+  background-color:white;}
